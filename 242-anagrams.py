@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/valid-anagram/description/
 # Given two strings s and t, return true if t is an
 # anagram of s, and false otherwise.
 
@@ -13,7 +14,6 @@ class Solution:
         for char in t:
             t_freq[char] = t_freq.get(char, 0) + 1
 
-        print(s_freq, t_freq)
         return s_freq == t_freq
 
 
